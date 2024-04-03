@@ -1,6 +1,6 @@
 import streamlit as st
-from new_functions2 import *
 import os
+import pandas as pd
 import time
 from datetime import datetime
 
@@ -44,7 +44,7 @@ while True:
 # for i in range(3):
     try:
         try:
-            output_df("TEST",f"{username}")
+            # output_df("TEST",f"{username}")
             os.system('cls' if os.name == 'nt' else 'clear')
             # #print("&&&&&&&&&&&&&&&&&&&&")
         except Exception as e:
