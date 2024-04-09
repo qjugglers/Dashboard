@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import pandas as pd
 import time
+import numpy as np
 from datetime import datetime
 
 
@@ -51,7 +52,7 @@ while True:
             #print(e)
             pass
         try:        
-            df=pd.read_csv("last_dataframe.csv")    
+            df=pd.read_csv(f"last_dataframe_SUT_{username}_SUT.csv")    
             
             try:
                 df=df[["Strategy_name","CE_Strike","PE_Strike","CE_Price","PE_Price","combined_sl","Quantity","triggered",
