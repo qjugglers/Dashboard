@@ -7,16 +7,7 @@ from datetime import datetime
 from streamlit_option_menu import option_menu
 
 st.set_page_config(layout="wide")
-# try:
-#     import glob
-#     import os
-#     final_out_new=pd.DataFrame()
-#     final_out_new.to_csv(f"last_dataframe_{selected_id}_{selected_strategy}.csv",index=False)
-#     csv_files = glob.glob("C://Users//Administrator//Desktop//Algo_files//temp//"+"*.csv")
-#     for file in csv_files:
-#         os.remove(file)
-# except Exception as e:
-#     pass
+
 
 def highlight_rows(row):
     if row['Status'] == "FINISHED":
@@ -65,11 +56,11 @@ if selected_strategy=="TREND":
         orientation="horizontal"
     )
     print(selected_symbol)
-
+time1=st.empty()
 dataframe_df=st.empty()
+time2=st.empty()
 symbol="BANKNIFTY"
 while True:
-    time.sleep(3)
 # for i in range(3):
     try:
         try:
