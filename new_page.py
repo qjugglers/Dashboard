@@ -1,4 +1,11 @@
 import streamlit as st
+import subprocess
+install_command = 'pip install streamlit-option-menu'
+try:
+    subprocess.check_call(install_command.split())
+    print("streamlit-option-menu installed successfully.")
+except subprocess.CalledProcessError:
+    print("Error installing streamlit-option-menu.")
 import os
 import time
 import pandas as pd
