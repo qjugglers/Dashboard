@@ -1,4 +1,1 @@
-Strategy_name,CE_token,PE_token,combined_sl,79434689,FDE645,CE_entry,PE_entry,CE_Sqoff,PE_Sqoff,UT_ORDER,UT_SL,Id,CE_Price,CE_Strike,PE_Price,PE_Strike,CE_Sqoff_Price,PE_Sqoff_Price,Quantity,UT_Price,UT_SL_Price,straddle_PL,UT_PL,UT_Strike,triggered,PE_live_price,CE_live_price
-13:10_SUT(BN),54004,54006,154.6,Order Placed,Order Placed,1101189634,1101189640,,,,,79434689,50.8,47600,69,47600,,,30,,,53.3,,,,53.35,13.15
-13:20_SUT(BN),54004,54006,153.1,Order Placed,Order Placed,1101193985,1101193996,,,,,79434689,51.775,47600,65.55,47600,,,30,,,50.825,,,,53.35,13.15
-13:30_SUT(BN),54004,54006,152.4,Order Placed,Order Placed,1101199405,1101199433,,,,,79434689,67.7,47600,46.5,47600,,,30,,,47.7,,,,53.35,13.15
+
