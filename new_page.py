@@ -11,6 +11,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(layout="wide")
 
 
+
 def highlight_rows(row):
     if row['Status'] == "FINISHED":
         return ['background-color: khaki'] * len(row)
@@ -48,16 +49,6 @@ selected_strategy=option_menu(
     orientation="horizontal"
 )
 print(selected_strategy)
-# if selected_strategy=="TREND":
-#     selected_symbol=option_menu(
-#         menu_title=None,
-#         options=["NIFTY","BANKNIFTY","FINNIFTY"],
-#         icons=["house","book","envelope"],
-#         menu_icon="cast",
-#         default_index=0,
-#         orientation="horizontal"
-#     )
-#     print(selected_symbol)
 time1=st.empty()
 dataframe_df=st.empty()
 time2=st.empty()
